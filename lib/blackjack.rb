@@ -3,7 +3,7 @@ def welcome
 end
 
 def deal_card
-  return rand
+  return 1 + rand(11)
 end
 
 def display_card_total
@@ -11,7 +11,7 @@ def display_card_total
 end
 
 def prompt_user
-  # code #prompt_user here
+puts ""
 end
 
 def get_user_input
